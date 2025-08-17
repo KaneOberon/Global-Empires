@@ -8,7 +8,7 @@
 /* === BODY BACKGROUND === */
 body {
   font-family: 'Garamond', serif;
-  background-image: url('images/castle-wall.jpg');
+  background-image: url('images/castle-wall.jpg'); /* Placeholder path */
   background-size: cover;
   background-position: center;
   color: #f0e6d2;
@@ -34,17 +34,27 @@ header p {
   text-shadow: 1px 1px 2px #000;
 }
 
-/* === EMPIRE GRID === */
-.empire-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+/* === EMPIRE LAYOUT === */
+.empire-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/* === ROW FORMATIONS === */
+.top-row,
+.bottom-row {
+  display: flex;
+  justify-content: center;
   gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 /* === EMPIRE CARD === */
 .empire-card {
+  width: 280px;
+  min-height: 160px;
   background-color: rgba(0, 0, 0, 0.7);
   border: 2px solid #d4af37;
   border-radius: 10px;
@@ -71,3 +81,4 @@ header p {
   font-size: 1rem;
   color: #ccc;
 }
+
