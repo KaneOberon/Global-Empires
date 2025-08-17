@@ -38,6 +38,7 @@ body {
   justify-content: center;
   gap: 40px;
   padding: 20px;
+  flex-wrap: wrap;
   z-index: 2;
   position: relative;
 }
@@ -56,48 +57,3 @@ body {
 .empire-card:hover {
   transform: scale(1.05);
 }
-
-/* === LEFT KNIGHT PANEL === */
-.knight-left {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 120px;
-  background-image: url('images/castle-wall.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-}
-
-.knight-left img {
-  max-height: 90%;
-  width: auto;
-  object-fit: contain;
-}
-
-/* === RIGHT KNIGHT PANEL === */
-.knight-right {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 120px;
-  background-image: url('images/castle-wall.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-}
-
-.knight-right img {
-  max-height: 90%;
-  width: auto;
-  object-fit: contain;
-}
-
