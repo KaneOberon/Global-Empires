@@ -92,17 +92,21 @@ header p {
   margin-bottom: 15px;
 }
 
-/* === BRITISH IMAGE OVERRIDE === */
-.british .empire-image {
-  width: 350px !important;
-  height: auto !important;
-  object-fit: contain !important;
+/* === EMPIRE-SPECIFIC OVERRIDES === */
+
+/* === British Empire === */
+.empire-card.british {
+  width: 550px !important;
 }
 
-/* === Empire Image Overrides === */
 a.empire-card.british img.empire-image {
-  width: 350px !important;
+  width: 550px !important;
   height: auto !important;
   object-fit: contain !important;
-  border: 3px solid crimson; /* Visual confirmation */
+  border: 2px solid #d4af37;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
 }
+
+/* === Future Empire Overrides === */
+/* Add similar blocks for mongol, roman, ottoman, etc. */
+
