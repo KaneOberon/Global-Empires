@@ -82,31 +82,3 @@ header p {
   color: #ccc;
 }
 
-/* === EMPIRE IMAGE STANDARDIZATION === */
-.empire-image {
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-  border: 1px solid #444;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
-  margin-bottom: 15px;
-}
-
-/* === EMPIRE-SPECIFIC OVERRIDES === */
-
-/* === British Empire === */
-.empire-card.british {
-  width: 550px !important;
-}
-
-a.empire-card.british img.empire-image {
-  width: 550px !important;
-  height: auto !important;
-  object-fit: contain !important;
-  border: 2px solid #d4af37;
-  box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
-}
-
-/* === Future Empire Overrides === */
-/* Add similar blocks for mongol, roman, ottoman, etc. */
-
