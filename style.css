@@ -91,3 +91,9 @@ header p {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   margin-bottom: 15px;
 }
+
+.british .empire-image {
+  width: 350px;
+  height: auto;
+  object-fit: contain;
+}
