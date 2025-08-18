@@ -82,12 +82,15 @@ header p {
   color: #ccc;
 }
 
-/* === British Empire Background === */
+/* === British Empire Background (Adjusted) === */
 .british-bg {
   background-image: url('images/bg-british.jpg');
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
-  color: #fff; /* Optional: white text for contrast */
+  background-position: center top;
+  background-color: #000;
+  color: #fff;
 }
+
+
 
