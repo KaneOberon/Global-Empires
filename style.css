@@ -92,8 +92,9 @@ header p {
   margin-bottom: 15px;
 }
 
+/* === BRITISH IMAGE OVERRIDE === */
 .british .empire-image {
-  width: 350px;
-  height: auto;
-  object-fit: contain;
+  width: 350px !important;
+  height: auto !important;
+  object-fit: contain !important;
 }
