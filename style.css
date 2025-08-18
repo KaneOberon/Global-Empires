@@ -92,5 +92,34 @@ header p {
   color: #fff;
 }
 
+/* === Roman Empire Background === */
+.roman-bg {
+  background-image: url('images/bg-roman.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #000;
+  color: #fff;
+}
+
+/* === Mongol Empire Background === */
+.mongol-bg {
+  background-image: url('images/bg-mongol.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #000;
+  color: #fff;
+}
+
+/* === Spanish Empire Background === */
+.spanish-bg {
+  background-image: url('images/bg-spanish.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #000;
+  color: #fff;
+
 
 
