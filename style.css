@@ -120,6 +120,15 @@ header p {
   background-position: center top;
   background-color: #000;
   color: #fff;
+}
 
+/* === Ottoman Empire Background === */
+.ottoman-bg {
+  background-image: url('images/bg-ottoman.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #000;
+  color: #fff;
 
 
